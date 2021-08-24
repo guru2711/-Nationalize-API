@@ -1,0 +1,34 @@
+header {
+  display: grid;
+  width: max-content;
+  text-align: center;
+  position: relative;
+  left: 7rem;
+  top: 0.8rem;
+}
+body {
+  width: 400px;
+  height: 300px;
+  box-shadow: 3px 3px 3px 3px;
+  position: relative;
+  left: 5rem;
+  border-radius: 5%;
+  background-color: whitesmoke;
+  padding: 2rem;
+}
+p {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+}
+a {
+  display: grid;
+  position: relative;
+  top: 10rem;
+}
+@media screen and (min-width: 800px) {
+  body {
+    width: 70%;
+    text-align: center;
+  }
+}

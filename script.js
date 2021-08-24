@@ -1,10 +1,10 @@
-const name = document.getElementById("mytext").value;
+const names = document.getElementById("mytext").value;
 const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", () => {
   //   console.log(value);
 
-  get(name);
+  get(names);
 });
 
 async function get(name) {
